@@ -93,3 +93,28 @@ header {
     color: #1F2937;
     justify-self: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 600px;
+    text-align: center;
+}
+
+.quote cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: bold;  
+    text-align: right;
+}
