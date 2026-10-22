@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
+    padding: 1rem 2rem;
 }
 
 .header-logo {
@@ -20,4 +21,44 @@ header {
     display: flex;
     list-style-type: none;
     gap:1.5rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 3rem 2rem;
+    max-height: 300px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 1rem;
+    font-weight: 900;
+    align-self:center;
+    
+}
+
+.hero-text h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.hero-text button {
+    background-color: #3B82F6;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero .hero-image img {
+    max-width: 300px;
+    height: auto;
 }
